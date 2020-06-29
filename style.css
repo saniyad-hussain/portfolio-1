@@ -1,0 +1,35 @@
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+.col {
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+
+}
+.col h1{
+    font-size: 50px;
+    
+}
+.col h3{
+    font-size: 25px;
+    
+}
+
+
+.col img{
+    width: 100%;
+}
+.brand{
+    color: #35A2F2;
+}
+.btn{
+    padding: 10px 45px;
+    background: #35A2F2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
