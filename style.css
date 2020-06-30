@@ -1,6 +1,16 @@
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
 
+}
+section{
+    height: 500px;
+    padding-bottom: 110px;
+    
+}
+p{
+    font-weight: 500;
+    font-size: 17px;
 }
 .col {
     width: 40%;
@@ -12,6 +22,9 @@ body{
 .col h1{
     font-size: 50px;
     
+}
+.col h2{
+    font-size: 40px;
 }
 .col h3{
     font-size: 25px;
@@ -32,4 +45,52 @@ body{
     font-size: 16px;
     font-weight: bold;
     border: none;
+    border-radius: 6px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    background-repeat: no-repeat;
+    background-image: url("images/top-banner.png");
+}
+.container-two {
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/* .container-three h2{
+    font-size: 30px;
+} */
+.exp{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.container-three{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y:center ;
+}
+.container-three h3{
+    font-family: sans-serif;
+}
+.container-three div {
+    box-shadow: 5px 7px 40px grey;
+    height: 75%;
+    
+}
+.experience1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.experience2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(149, 142, 240), rgb(71, 89, 255));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
