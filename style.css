@@ -94,3 +94,32 @@ p{
 footer p{
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .col {
+        width: 80%;
+        padding-left: 2%;
+        margin-left: 5%;
+    
+    }
+    .col h1{
+        font-size: 25px;
+        
+    }
+    .col h2{
+        font-size: 20px;
+    }
+    .col h3{
+        font-size: 20px;
+        
+    }
+    .col img{
+        padding-top: 20px;
+        width: 80%;
+    }
+    .experience1 {
+        padding-top: 20px;
+    }
+    .experience2 {
+       margin-top: 20px;
+    }
+}
